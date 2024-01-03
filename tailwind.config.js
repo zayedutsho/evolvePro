@@ -4,11 +4,5 @@ export default {
   theme: {
     extend: {},
   },
-  color: {
-    customColor: "#D4D6FB",
-  },
-  backgroundImage: {
-    "custom-gradient": "linear-gradient(180deg, #36DAFE 0%, #129CE9 100%)",
-  },
   plugins: [],
 };
