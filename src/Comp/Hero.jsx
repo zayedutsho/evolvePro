@@ -1,19 +1,21 @@
-import React from "react";
 import Marque from "react-fast-marquee";
 import hero from "../assets/Hero.svg";
 
 const Hero = () => {
   return (
-    <div className="relative">
+    <div
+      className=" bg-[url('../assets/Hero.svg')]
+    "
+    >
       <img
-        className="object-cover w-full  h-20 md:h-1021px"
+        className="object-cover w-full  h-1021px md:h-1021px"
         src={hero}
         alt="Background Image"
       />
 
       <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-between">
         <div>
-          <div className="bg-gradient-to-br from-white via-blue-500 to-purple-900 text-white py-16 md:pb-16 ">
+          <div className=" text-white py-16 md:pb-16 ">
             <div className="container mx-auto text-center relative z-10 mt-20">
               <h1 className="text-4xl md:text-6xl font-bold text-black">
                 Transform Your Website Into <br />a 24/7 Sales Powerhouse with{" "}
