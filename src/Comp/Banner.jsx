@@ -8,7 +8,7 @@ const Banner = () => {
       </div>
       <div>
         <h1 className="text-center lg:text-[32px] font-['Poppins'] font-bold text-[#fff]">
-          <span className="py-[29px] px-[44px] border-b-[3px] border-[#0084CB] shadow-[0_20px_30px_0px_rgba(0, 93, 114, 0.25)] bg-[linear-gradient(180deg,_#36DAFE_0%,_#129CE9_100%)] rounded-[20px]">
+          <span className="py-[29px] px-[44px] border-b-[3px] border-[#0084CB] shadow-2xl bg-[linear-gradient(180deg,_#36DAFE_0%,_#129CE9_100%)] rounded-[20px]">
             Start Your Free Trial Today 》
           </span>
         </h1>
