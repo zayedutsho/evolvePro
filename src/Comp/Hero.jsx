@@ -1,45 +1,67 @@
+/* eslint-disable no-irregular-whitespace */
+/* eslint-disable react/no-unescaped-entities */
 import Marque from "react-fast-marquee";
+
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-800 text-white py-16">
-      <div className="container mx-auto text-center ">
-        <h1 className="text-4xl md:text-6xl font-bold text-black  ">
-          Transform Your Website Into <br />a 24/7 Sales Powerhouse with <br />
-          EvolvePro.AI
-        </h1>
-        <p className="text-lg mt-4  pb-10">
-          Leverage Cutting-Edge AI to Engage Visitors, Qualify Leads, and
-          Skyrocket <br /> Your Online Conversions{" "}
-        </p>
-        <button className="bg-sky-300	 text-white font-bold py-2 px-4 rounded">
-          Start Your Free Trial Today
-        </button>
-        <p className="text-sm mt-3 text-gray-300">
-          Get Started In Less Than 60 Seconds • Cancel Anytime
-        </p>
+    <div className="pt-[150px] pb-[56px] bg-[url('./assets/Hero.svg')]">
+      <div className="text-center text-[#222222] lg:text-[82px] lg:leading-[82px] font-semibold">
+        <h1>"Transform Your Website Into EvolvePro.AI</h1>
+        <h1>a 24/7 Sales Powerhouse with</h1>
+        <h1>EvolvePro.AI"</h1>
       </div>
-      <Marque>
-        <div className="  mt-10 flex">
-          <div className="text-2xl rounded-md text-gray-300 flex space-x-5 p-4">
+      <div className="lg:mt-10 lg:text-[24px] text-center font-bold text-[#FFFFFF]">
+        <h1>
+          <span className="text-[#D4D6FB]">Leverage</span> Cutting-Edge AI{" "}
+          <span className="text-[#D4D6FB]">to</span> Engage Visitors, Qualify
+          Leads, <span className="text-[#D4D6FB]">and</span> Skyrocket
+        </h1>
+        <h1>Your Online Conversions</h1>
+      </div>
+      <div className="lg:mt-[100px]">
+        <h1 className="text-center lg:text-[32px] font-['Poppins'] font-bold text-[#fff]">
+          <span className="py-[29px] px-[44px] border-b-[3px] border-[#0084CB] shadow-2xl bg-[linear-gradient(180deg,_#36DAFE_0%,_#129CE9_100%)] rounded-[20px]">
+            Start Your Free Trial Today 》
+          </span>
+        </h1>
+      </div>
+      <div className="text-center lg:mt-16 lg:text-[18px] font-normal text-[#DADADA]">
+        <h1>Get Started In Less Than 60 Seconds • Cancel Anytime</h1>
+      </div>
+      <div className="text-center lg:mt-[120px] text-[32px] text-[#D4D6FB]">
+        <Marque>
+          <div className="space-x-5 mr-[48px] inline-flex text-customColor rounded">
             Start Your Free Trial Today
           </div>
-          <div className="text-2xl rounded-md text-gray-300 flex  space-x-5 p-4">
+          <div className="space-x-5 mr-[48px] inline-flex text-customColor rounded">
             Start Your Free Trial Today
           </div>
-          <div className="text-2xl rounded-md text-gray-300 flex  space-x-5 p-4">
+          <div className="space-x-5 mr-[48px] inline-flex text-customColor rounded">
             Start Your Free Trial Today
           </div>
-          <div className="text-2xl rounded-md text-gray-300 flex  space-x-5 p-4">
+          <div className="space-x-5 mr-[48px] inline-flex text-customColor rounded">
             Start Your Free Trial Today
           </div>
-          <div className="text-2xl rounded-md text-gray-300 flex  space-x-5 p-4">
+          <div className="space-x-5 mr-[48px] inline-flex text-customColor rounded">
             Start Your Free Trial Today
           </div>
-          <div className="text-2xl rounded-md text-gray-300 flex  space-x-5 p-4">
+          <div className="space-x-5 mr-[48px] inline-flex text-customColor rounded">
             Start Your Free Trial Today
           </div>
-        </div>
-      </Marque>
+          <div className="space-x-5 mr-[48px] inline-flex text-customColor rounded">
+            Start Your Free Trial Today
+          </div>
+          <div className="space-x-5 mr-[48px] inline-flex text-customColor rounded">
+            Start Your Free Trial Today
+          </div>
+          <div className="space-x-5 mr-[48px] inline-flex text-customColor rounded">
+            Start Your Free Trial Today
+          </div>
+          <div className="space-x-5 mr-[48px] inline-flex text-customColor rounded">
+            Start Your Free Trial Today
+          </div>
+        </Marque>
+      </div>
     </div>
   );
 };
