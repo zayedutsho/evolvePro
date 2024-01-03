@@ -4,9 +4,9 @@ import Marque from "react-fast-marquee";
 
 const Hero = () => {
   return (
-    <div className="pt-[150px] pb-[56px] bg-[url('./assets/Hero.svg')]">
+    <div className="pt-[150px] pb-[56px] bg-[url('./assets/Hero.svg')] font-['Poppins']">
       <div className="text-center text-[#222222] lg:text-[82px] lg:leading-[82px] font-semibold">
-        <h1>"Transform Your Website Into EvolvePro.AI</h1>
+        <h1>"Transform Your Website Into</h1>
         <h1>a 24/7 Sales Powerhouse with</h1>
         <h1>EvolvePro.AI"</h1>
       </div>
