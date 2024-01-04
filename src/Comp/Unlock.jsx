@@ -1,47 +1,73 @@
-import React from "react";
-import phone from "../assets/phone1.svg";
+/* eslint-disable react/no-unescaped-entities */
+import phoneImage from "../assets/phone1.svg";
+import recImage from "../assets/recImage.svg";
+import boxImage from "../assets/boxIcon.svg";
 
 const Unlock = () => {
   return (
-    <div className="pt-16 pb-14 bg-[url('./assets/Background.svg')] flex justify-center items-center text-center font-Poppins gap-32 text-white">
-      <div className="max-w-3xl ">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-          Unlock the Full Power of Your Website with EvolvePro.AI
-        </h1>
-
-        <p className="text-base md:text-lg lg:text-xl mb-6   ml-16 w-full text-left ">
-          Discover the Future of Business Interaction with EvolvePro.AI: A{" "}
-          <br />
-          Revolutionary Tool Designed to Skyrocket Your Leads, <br />{" "}
-          Personalise Customer Engagement, and Streamline Your <br />{" "}
-          Operations. Experience the Unparalleled Efficiency of AI- <br />
-          Powered Communication, Tailored to Elevate Your Business in <br />{" "}
-          Today's Digital Landscape.
-        </p>
-
-        <p className="text-lg md:text-xl font-bold mb-2  ml-16 w-full text-left  ">
-          YES! EvolvePro.AI Integrates Perfectly With:
-        </p>
-        <div className="grid grid-cols-2 gap-2">
-          <ul className="text-sm md:text-base lg:text-lg grid grid-cols-2 gap-2">
-            <li className="mb-2">lorddsadsdds</li>
-            <li className="mb-2">lorddsadsdds</li>
-            <li className="mb-2">lorddsadsdds</li>
-            <li className="mb-2">lorddsadsdds</li>
-            <li className="mb-2">lorddsadsdds</li>
-            <li className="mb-2">lorddsadsdds</li>
-            <li className="mb-2">lorddsadsdds</li>
-            <li className="mb-2">lorddsadsdds</li>
-          </ul>
+    <div className="bg-[url('./assets/darkBg.svg')] pt-[55px] pb-[125px] lg:flex justify-center lg:gap-[150px]">
+      <div>
+        <div className="lg:mt-10 text-[50px] font-['Sharp-Grotesk-medium'] leading-[58px] text-[#fff]">
+          <h1>Unlock the Full Power</h1>
+          <h1>of Your Website with</h1>
+          <h1>EvolvePro.AI</h1>
+        </div>
+        <div className="lg:text-[18px] font-['Poppins'] lg:mt-[24px] font-normal text-[#999FAE]">
+          <h1>
+            Discover the Future of Business Interaction with EvolvePro.AI: A
+          </h1>
+          <h1>Revolutionary Tool Designed to Skyrocket Your Leads,</h1>
+          <h1> Personalise Customer Engagement, and Streamline Your</h1>
+          <h1>Operations. Experience the Unparalleled Efficiency of AI-</h1>
+          <h1>Powered Communication, Tailored to Elevate Your Business in</h1>
+          <h1>Today's Digital Landscape.</h1>
+        </div>
+        <div className="lg:mt-[48px] font-medium lg:flex lg:gap-[18px]">
+          <img src={recImage} alt="recImage" />
+          <h1 className="lg:text-[16px] font-['Poppins'] text-[#fff]">
+            YES! EvolvePro.AI Integrates Perfectly With:
+          </h1>
+        </div>
+        <div className="lg:mt-[32px] lg:ml-[53px]">
+          <div className="lg:grid grid-cols-2 lg:gap-[92px]">
+            <div className="lg:flex lg:gap-[12px] font-normal lg:text-[16px] text-[#999FAE] font-['Poppins']">
+              <img src={boxImage} alt="boxImage" />
+              <h1>E-Commerce Stores</h1>
+            </div>
+            <div className="lg:flex lg:gap-[12px] font-normal lg:text-[16px] text-[#999FAE] font-['Poppins']">
+              <img src={boxImage} alt="boxImage" />
+              <h1>Info Products</h1>
+            </div>
+          </div>
+          <div className="lg:grid grid-cols-2 lg:gap-[92px] lg:mt-[24px]">
+            <div className="lg:flex lg:gap-[12px] font-normal lg:text-[16px] text-[#999FAE] font-['Poppins']">
+              <img src={boxImage} alt="boxImage" />
+              <h1>Coaching Services</h1>
+            </div>
+            <div className="lg:flex lg:gap-[12px] font-normal lg:text-[16px] text-[#999FAE] font-['Poppins']">
+              <img src={boxImage} alt="boxImage" />
+              <h1>Sales Funnels</h1>
+            </div>
+          </div>
+          <div className="lg:grid grid-cols-2 lg:gap-[92px] lg:mt-[24px]">
+            <div className="lg:flex lg:gap-[12px] font-normal lg:text-[16px] text-[#999FAE] font-['Poppins']">
+              <img src={boxImage} alt="boxImage" />
+              <h1>Brick & Mortar Business Websites</h1>
+            </div>
+            <div className="lg:flex lg:gap-[12px] font-normal lg:text-[16px] text-[#999FAE] font-['Poppins']">
+              <img src={boxImage} alt="boxImage" />
+              <h1>And More...!!</h1>
+            </div>
+          </div>
+          <div className="lg:grid grid-cols-2 lg:gap-[92px] lg:mt-[24px]">
+            <div className="lg:flex lg:gap-[12px] font-normal lg:text-[16px] text-[#999FAE] font-['Poppins']">
+              <img src={boxImage} alt="boxImage" />
+              <h1>Consulting Businesses</h1>
+            </div>
+          </div>
         </div>
       </div>
-      <div>
-        <img
-          src={phone}
-          alt="Phone"
-          className="max-h-[400px] md:max-h-[500px] lg:max-h-[600px]"
-        />
-      </div>
+      <img src={phoneImage} alt="phoneImage" />
     </div>
   );
 };
