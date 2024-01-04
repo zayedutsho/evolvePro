@@ -64,7 +64,7 @@ const Faq = () => {
   return (
     <div className="py-8 px-4 md:px-8 bg-gradient-to-b from-transparent via-gray-200 to-gray-300">
       <div className="max-w-full md:max-w-[1241px] mx-auto">
-        <h1 className="text-3xl font-bold mb-4 text-center md:text-left text-7xl text-black mb-[92px]">
+        <h1 className="text-3xl font-bold mb-4 text-center  text-7xl text-black mb-[92px]">
           FAQ
         </h1>
         {faqItems.map((item, index) => (
@@ -76,6 +76,11 @@ const Faq = () => {
           />
         ))}
       </div>
+      <h1 className="text-center lg:text-[32px] font-['Poppins'] font-bold text-[#fff] mt-[92px]">
+        <span className="py-[29px] px-[44px] border-b-[3px] border-[#0084CB] shadow-2xl bg-[linear-gradient(180deg,_#36DAFE_0%,_#129CE9_100%)] rounded-[20px]">
+          Start Your Free Trial Today 》
+        </span>
+      </h1>
     </div>
   );
 };
