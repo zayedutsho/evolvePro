@@ -1,13 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
-import phoneImage from "../assets/phone1.svg";
+import gif from "../assets/gif.gif";
 import recImage from "../assets/recImage.svg";
 import boxImage from "../assets/boxIcon.svg";
 
 const Unlock = () => {
   return (
-    <div className="bg-[url('./assets/darkBg.svg')] pt-[55px] pb-[125px] lg:flex justify-center lg:gap-[150px]">
+    <div className="bg-[url('./assets/bgG.svg')] pt-[55px] pb-[125px] lg:flex justify-center lg:gap-[150px] bg-cover">
       <div>
-        <div className="lg:mt-10 text-[50px] font-['Sharp-Grotesk-medium'] leading-[58px] text-[#fff]">
+        <div className="lg:mt-[70px] text-[50px] font-['Sharp-Grotesk-medium'] leading-[58px] text-[#fff]">
           <h1>Unlock the Full Power</h1>
           <h1>of Your Website with</h1>
           <h1>EvolvePro.AI</h1>
@@ -67,7 +67,7 @@ const Unlock = () => {
           </div>
         </div>
       </div>
-      <img src={phoneImage} alt="phoneImage" />
+      <img src={gif} alt="gif" />
     </div>
   );
 };

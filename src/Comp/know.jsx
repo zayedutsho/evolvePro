@@ -4,7 +4,7 @@ const know = () => {
   return (
     <div className="lg:flex flex-col pt-[160px] pl-[240px] bg-[url('./assets/knowledgeImage.svg')] min-h-[1970px] bg-cover">
       <div className="text-[#222222] lg:text-[71px] lg:leading-[71px] font-semibold font-['Sharp-Grotesk-Medium']">
-        <h1>EvolvePro.AI"</h1>
+        <h1>EvolvePro.AI</h1>
       </div>
       <div className="lg:mt-[70px]">
         <h1 className="text-start lg:text-[16px] font-['Poppins'] font-bold text-[#fff]">
