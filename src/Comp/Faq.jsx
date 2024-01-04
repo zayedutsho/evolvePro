@@ -38,31 +38,33 @@ const Faq = () => {
 
     return (
       <div className="mb-4 border-b">
-        <div
-          className={`flex justify-between items-center cursor-pointer ${
-            isOpen ? "w-full" : "max-w-[1241px]"
-          }`}
-          onClick={toggleAccordion}
-        >
-          <div className="flex items-center space-x-5">
+        <div className="flex flex-col md:flex-row justify-between items-center cursor-pointer">
+          <div className="flex items-center mb-3 md:mb-0 md:space-x-5">
             <span className="text-gray-500">{num}.</span>
-            <h2 className="text-lg font-semibold text-center text-nowrap ">
+            <h2 className="text-lg font-semibold text-center md:text-left text-nowrap">
               {question}
             </h2>
           </div>
-          <span className="w-8 h-8 text-gray-500 inline-block rounded-full border border-purple-500 items-center justify-center flex ">
-            {isOpen ? "-" : "+"}
-          </span>
+          <div className="flex items-center">
+            <span
+              onClick={toggleAccordion}
+              className="w-8 h-8 text-gray-500 inline-block rounded-full border border-purple-500 items-center justify-center flex cursor-pointer"
+            >
+              {isOpen ? "-" : "+"}
+            </span>
+          </div>
         </div>
-        {isOpen && <p className="mt-2  text-nowrap text-start ">{answer}</p>}
+        {isOpen && (
+          <p className="mt-2 text-nowrap text-center md:text-left">{answer}</p>
+        )}
       </div>
     );
   };
 
   return (
-    <div className="py-[150px] px-[250px] bg-[linear-gradient(180deg,_#dedede00_0%,_#174aff4d_100%)]">
-      <div className="max-w-[1241px] mx-auto">
-        <h1 className="text-3xl font-bold mb-4 text-center text-7xl text-black mb-[92px]">
+    <div className="py-8 px-4 md:px-8 bg-gradient-to-b from-transparent via-gray-200 to-gray-300">
+      <div className="max-w-full md:max-w-[1241px] mx-auto">
+        <h1 className="text-3xl font-bold mb-4 text-center md:text-left text-7xl text-black mb-[92px]">
           FAQ
         </h1>
         {faqItems.map((item, index) => (
