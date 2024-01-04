@@ -2,3 +2,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Sharp-Grotesk-SemiBold";
+    src: local("Sharp-Grotesk-SemiBold"),
+      url("../src/fonts/SharpGrotesk-SemiBold25.otf") format("truetype");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "Sharp-Grotesk-Medium";
+    src: local("Sharp-Grotesk-Medium"),
+      url("../src/fonts/SharpGrotesk-Medium25.otf") format("truetype");
+    font-weight: medium;
+  }
+}
