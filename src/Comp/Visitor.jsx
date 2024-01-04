@@ -1,6 +1,6 @@
 const Visitor = () => {
   return (
-    <div className="pt-[150px] pb-[80px] text-center font-['Poppins']">
+    <div className="pt-[150px] pb-[80px] text-center font-['Sharp-Grotesk-Medium']">
       <h1 className="text-[#9A9AB5] lg:text-[20px] lg:font-medium">
         Are You Ready to...
       </h1>
