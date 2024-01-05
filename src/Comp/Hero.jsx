@@ -1,7 +1,6 @@
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/no-unescaped-entities */
 import Marque from "react-fast-marquee";
-import gifThree from "../assets/gif3.gif";
 import { useSpring, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
 const Hero = () => {

@@ -1,13 +1,8 @@
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/no-unescaped-entities */
 import "animate.css";
-
-import imageOne from "../assets/meet/imageOne.svg";
-import imageTwo from "../assets/meet/imageTwo.svg";
-import imageThree from "../assets/meet/imageThree.svg";
 import gifOne from "../assets/gif1.gif";
 import gifTwo from "../assets/gif2.gif";
-
 import gifThree from "../assets/gif3.gif";
 import { useSpring, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";

@@ -5,13 +5,12 @@ const Banner = () => {
   return (
     <div className="py-[150px] px-[250px] bg-[linear-gradient(180deg,_#dedede00_0%,_#174aff4d_100%)] ">
       <div className="flex items-center justify-center">
-        {/* <img src={bannerImage} alt="bannerImage" /> */}
         <video
           src={video}
-          width="1200"
-          height="1200"
+          width="1420"
+          height="780"
           controls
-          className="border rounded-lg"
+          className="border-10 border-solid border-[#fff] rounded-lg"
         />
       </div>
       <div>
