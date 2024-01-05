@@ -7,6 +7,7 @@ import Connected from "./Comp/Connected";
 import Meet from "./Comp/Meet";
 import Visitor from "./Comp/Visitor";
 import Know from "./Comp/know";
+import Oppurtunity from "./Comp/Oppurtunity";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Meet />
       <Connected />
       <Know />
+      <Oppurtunity />
       <FreeTrial />
       <Faq />
     </>
