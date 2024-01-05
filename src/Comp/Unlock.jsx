@@ -5,8 +5,8 @@ import boxImage from "../assets/boxIcon.svg";
 
 const Unlock = () => {
   return (
-    <div className="bg-[url('./assets/bgG.svg')] pt-[55px] pb-[125px] lg:flex justify-center lg:gap-[150px] bg-cover">
-      <div>
+    <div className="bg-[url('./assets/bgG.svg')] pt-[60px] pb-[125px] lg:flex justify-center lg:gap-[70px] bg-cover">
+      <div className="lg:ml-[140px]">
         <div className="lg:mt-[70px] text-[50px] font-['Sharp-Grotesk-medium'] leading-[58px] text-[#fff]">
           <h1>Unlock the Full Power</h1>
           <h1>of Your Website with</h1>
