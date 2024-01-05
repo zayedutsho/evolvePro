@@ -5,6 +5,7 @@ import two from "../assets/bonus/two.svg";
 import three from "../assets/bonus/three.svg";
 import four from "../assets/bonus/four.svg";
 import blue from "../assets/bonus/blue.svg";
+import thirdHand from "../assets/thirdHand.svg";
 
 const Bonus = () => {
   return (
@@ -340,6 +341,9 @@ const Bonus = () => {
         alt="blue"
         style={{ position: "absolute", top: "3950px", left: "150px" }}
       />
+      <div className="absolute top-[-580px] right-0">
+        <img src={thirdHand} alt="thirdHand" />
+      </div>
     </div>
   );
 };

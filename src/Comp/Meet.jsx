@@ -4,6 +4,7 @@ import "animate.css";
 import gifOne from "../assets/gif1.gif";
 import gifTwo from "../assets/gif2.gif";
 import gifThree from "../assets/gif3.gif";
+import firstHand from "../assets/firstHand.svg";
 import { useSpring, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
 
@@ -20,7 +21,7 @@ const Meet = () => {
     easing: "ease-in-out",
   });
   return (
-    <div ref={ref} className="pt-[100px] pb-[40px] ">
+    <div ref={ref} className="pt-[150px] pb-[40px] relative">
       <animated.div style={fadeUpAnimation}>
         <div className="text-center lg:text-[20px] font-normal text-[#9A9AB5] font-['Sharp-Grotesk-Medium']">
           <h1 className="animate-in slide-in-from-top  delay-650 duration-300">
@@ -122,6 +123,9 @@ const Meet = () => {
             </h1>
           </div>
         </div>
+      </div>
+      <div className="absolute top-[-270px] right-0">
+        <img src={firstHand} alt="firstHand" style={{ width: "760px" }} />
       </div>
     </div>
   );

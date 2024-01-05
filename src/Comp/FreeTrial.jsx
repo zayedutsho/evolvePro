@@ -14,6 +14,7 @@ import twolve from "../assets/twolve.svg";
 import thirteen from "../assets/thirteen.svg";
 import fourteen from "../assets/fourteen.svg";
 import fifteen from "../assets/fifteen.svg";
+import secondHand from "../assets/secondHand.svg";
 
 const FreeTrial = () => {
   const data = [
@@ -106,7 +107,7 @@ const FreeTrial = () => {
   ];
 
   return (
-    <div className="bg-[#27272E]  flex flex-col items-center justify-center pt-[150px] pb-[350px]">
+    <div className="bg-[#27272E]  flex flex-col items-center justify-center pt-[150px] pb-[350px] relative">
       <div className="text-white text-center">
         <h1 className="font-['Poppins'] text-[20px]">Join The Revolution</h1>
         <h1 className="text-[80px] font-['Sharp-Grotesk-Medium']">
@@ -164,20 +165,26 @@ const FreeTrial = () => {
 
         {/* Card 3 */}
         <div className="bg-[#2F2F38] rounded-[30px] pt-[48px] pb-[48px] px-[30px]">
-          <img
-            src={fifteen}
-            alt="Logo 3"
-            className="mx-auto"
-          />
+          <img src={fifteen} alt="Logo 3" className="mx-auto" />
           <h2 className="text-[20px] text-white font-normal font-['Poppins'] text-center lg:mt-[25px]">
             CRM
           </h2>
           <div className="text-[16px] text-[#999FAE] text-center font-['poppins'] lg:mt-[16px]">
-            <h1>Integrates with CRM for streamlined </h1>
+            <h1>Integrates with CRM for streamlined</h1>
             <h1>customer relationship </h1>
             <h1>management</h1>
           </div>
         </div>
+      </div>
+      <div>
+        <h1 className="text-center lg:text-[32px] font-['Poppins'] font-bold text-[#fff]  mt-[100px]">
+          <span className="py-[29px] px-[44px] border-b-[3px] border-[#0084CB] shadow-2xl bg-[linear-gradient(180deg,_#36DAFE_0%,_#129CE9_100%)] rounded-[20px]">
+            Start Your Free Trial Today 》
+          </span>
+        </h1>
+      </div>
+      <div className="absolute top-[-580px] left-0">
+        <img src={secondHand} alt="secondHand" />
       </div>
     </div>
   );
