@@ -111,7 +111,7 @@ const FreeTrial = () => {
       logo: fourteen,
       heading: "Expert Sales Training",
       description:
-        "Expertly trained in cutting-edge sales strategies from the greatest sales books ever for superior performance. ",
+        "Expertly trained in cutting-edge  sales strategies from the greatest sales books ever for superior performance. ",
     },
     {
       id: 3,
@@ -131,43 +131,75 @@ const FreeTrial = () => {
 
       <div className="grid grid-cols-4 gap-4">
         {data.map((card) => (
-          <div
-            key={card.id}
-            className="bg-[#2F2F38] p-4 rounded-[30px]  px-[126px] py-[129px]"
-          >
+          <div key={card.id} className="bg-[#2F2F38] p-4 rounded-[30px] ">
             <img
               src={card.logo}
               alt={`Logo ${card.id}`}
-              className="w-16 h-16 mx-auto mb-4"
+              className="w-[90px] h-[90px] mx-auto mb-4 pt-[16px]"
             />
-            <h2 className="text-[20px ] mt-[25px]  text-white font-bold text-center mb-2">
+            <h2 className="text-[20px ]   text-white font-normal px-[62px] pt-[25px]  w-full  font-sans text-center ">
               {card.heading}
             </h2>
-            <p className="text-sm text-[#999FAE] text-center">
+            <p className="text-sm text-[#999FAE] text-center font-['poppins'] pt-[16px] pb-[46px]">
               {card.description}
             </p>
           </div>
         ))}
       </div>
-      <div className="flex gap-4 mt-5">
-        {dataTwo.map((c) => (
-          <div
-            key={c.id}
-            className="bg-[#2F2F38] p-4 rounded-[30px]  px-[126px] py-[129px]"
-          >
-            <img
-              src={c.logo}
-              alt={`Logo ${c.id}`}
-              className="w-16 h-16 mx-auto mb-4"
-            />
-            <h2 className="text-lg text-white font-bold text-center mb-2">
-              {c.heading}
-            </h2>
-            <p className="text-sm text-[#999FAE] text-center">
-              {c.description}
-            </p>
-          </div>
-        ))}
+      <div className="flex justify-center items-center gap-8 mt-5 px-[90px]">
+        {/* Card 1 */}
+        <div className="bg-[#2F2F38]  rounded-[30px]">
+          <img
+            src={thirteen}
+            alt="Logo 1"
+            className="w-[90px] h-[90px] mx-auto mb-4 pt-[16px]"
+          />
+          <h2 className="text-[20px ]   text-white font-normal px-[62px] pt-[25px]  w-full  font-sans text-center">
+            User-Friendly Interface
+          </h2>
+          <p className="text-sm text-[#999FAE] text-center font-['poppins'] pt-[16px] pb-[46px]">
+            Easy-to-use interface for efficient management and control..
+          </p>
+        </div>
+
+        {/* Card 2 */}
+        <div className="bg-[#2F2F38]   rounded-[30px] w-[342px]  ">
+          <img
+            src={fourteen}
+            alt="Logo 2"
+            className="w-[90px] h-[90px] mx-auto mb-4 pt-[16px]"
+          />
+          <h2 className="text-[20px ]   text-white font-normal px-[62px] pt-[25px]  w-full  font-sans text-center">
+            Expert Sales Training
+          </h2>
+          <p className="text-sm text-[#999FAE] text-center font-['poppins'] pt-[16px] px[30px] ">
+            Expertly trained in cutting-edge
+          </p>
+          <p className="text-sm text-[#999FAE] text-center font-['poppins'] px[30px] ">
+            sales strategies from the greatest
+          </p>
+          <p className="text-sm text-[#999FAE] text-center font-['poppins']  px[30px]">
+            sales books ever for superior
+          </p>
+          <p className="text-sm text-[#999FAE] text-center font-['poppins'] px[30px] pb-10">
+            performance.
+          </p>
+        </div>
+
+        {/* Card 3 */}
+        <div className="bg-[#2F2F38]  rounded-[30px]">
+          <img
+            src={fifteen}
+            alt="Logo 3"
+            className="w-[90px] h-[90px] mx-auto mb-4 pt-[16px]"
+          />
+          <h2 className="text-[20px ]   text-white font-normal px-[62px] pt-[25px]  w-full  font-sans text-center">
+            CRM
+          </h2>
+          <p className="text-sm text-[#999FAE] text-center font-['poppins'] pt-[16px] pb-[46px]">
+            Integrates with CRM for streamlined customer relationship management
+          </p>
+        </div>
       </div>
     </div>
   );
