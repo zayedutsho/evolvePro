@@ -62,7 +62,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="py-8 px-4 md:px-8 bg-gradient-to-b from-transparent via-gray-200 to-gray-300">
+    <div className="py-[150px] px-[250px] bg-[linear-gradient(180deg,_#dedede00_0%,_#174aff4d_100%)] ">
       <div className="max-w-full md:max-w-[1241px] mx-auto">
         <h1 className="text-3xl font-bold mb-4 text-center  text-7xl text-black mb-[92px]">
           FAQ
