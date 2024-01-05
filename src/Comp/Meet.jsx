@@ -3,6 +3,10 @@
 import imageOne from "../assets/meet/imageOne.svg";
 import imageTwo from "../assets/meet/imageTwo.svg";
 import imageThree from "../assets/meet/imageThree.svg";
+import gifOne from "../assets/gif1.gif";
+import gifTwo from "../assets/gif2.gif";
+
+import gifThree from "../assets/gif3.gif";
 
 const Meet = () => {
   return (
@@ -20,7 +24,7 @@ const Meet = () => {
         <h1>Connect, Communicate, and Convert Online</h1>
       </div>
       <div className="lg:flex justify-center lg:mt-[50px] lg:gap-[80px]">
-        <img src={imageOne} alt="imageOne" />
+        <img src={gifOne} alt="gifOne" />
         <div>
           <div className="lg:mt-[60px] lg:text-[30px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
             <h1>Maximise Your Lead</h1>
@@ -77,10 +81,10 @@ const Meet = () => {
             </h1>
           </div>
         </div>
-        <img src={imageTwo} alt="imageTwo" />
+        <img src={gifTwo} alt="imageTwo" />
       </div>
       <div className="lg:flex justify-center lg:mt-[50px] lg:gap-[80px]">
-        <img src={imageThree} alt="imageThree" />
+        <img src={gifThree} alt="imageThree" />
         <div>
           <div className="lg:mt-[60px] lg:text-[30px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
             <h1>Looking for the Secret</h1>
