@@ -1,15 +1,36 @@
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/no-unescaped-entities */
 import Marque from "react-fast-marquee";
-
+import gifThree from "../assets/gif3.gif";
+import { useSpring, animated } from "react-spring";
+import { useInView } from "react-intersection-observer";
 const Hero = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+  const fadeUpAnimation = useSpring({
+    opacity: inView ? 1 : 0,
+    transform: inView ? "translateY(0)" : "translateY(-20px)",
+    config: {
+      duration: 800, // Adjust the duration as needed
+    },
+    easing: "ease-in-out",
+  });
+
+  //button
   return (
-    <div className="pt-[150px] pb-[56px] bg-[url('./assets/Hero.svg')] bg-cover">
-      <div className="text-center text-[#222222] lg:text-[82px] lg:leading-[82px] font-semibold font-['Sharp-Grotesk-SemiBold']">
-        <h1>"Transform Your Website Into</h1>
-        <h1>a 24/7 Sales Powerhouse with</h1>
-        <h1>EvolvePro.AI"</h1>
-      </div>
+    <div
+      className="pt-[150px] pb-[56px] bg-[url('./assets/Hero.svg')] bg-cover"
+      ref={ref}
+    >
+      <animated.div style={fadeUpAnimation}>
+        <div className="text-center text-[#222222] lg:text-[82px] lg:leading-[82px] font-semibold font-['Sharp-Grotesk-SemiBold']">
+          <h1>"Transform Your Website Into</h1>
+          <h1>a 24/7 Sales Powerhouse with</h1>
+          <h1>EvolvePro.AI"</h1>
+        </div>
+      </animated.div>
+
       <div className="lg:mt-10 lg:text-[24px] text-center font-bold text-[#FFFFFF] font-['Poppins']">
         <h1>
           <span className="text-[#D4D6FB]">Leverage</span> Cutting-Edge AI{" "}

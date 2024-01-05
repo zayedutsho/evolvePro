@@ -1,26 +1,48 @@
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/no-unescaped-entities */
+import "animate.css";
+
 import imageOne from "../assets/meet/imageOne.svg";
 import imageTwo from "../assets/meet/imageTwo.svg";
 import imageThree from "../assets/meet/imageThree.svg";
+import gifOne from "../assets/gif1.gif";
+import gifTwo from "../assets/gif2.gif";
+
+import gifThree from "../assets/gif3.gif";
+import { useSpring, animated } from "react-spring";
+import { useInView } from "react-intersection-observer";
 
 const Meet = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+  const fadeUpAnimation = useSpring({
+    opacity: inView ? 1 : 0,
+    transform: inView ? "translateY(0)" : "translateY(20px)",
+    config: {
+      duration: 800, // Adjust the duration as needed
+    },
+    easing: "ease-in-out",
+  });
   return (
-    <div className="pt-[100px] pb-[40px]">
-      <div className="text-center lg:text-[20px] font-normal text-[#9A9AB5] font-['Sharp-Grotesk-Medium']">
-        <h1>
-          In a world where every customer interaction can make or break your
-          business, one
-        </h1>
-        <h1>AI-powered tool is changing the game...</h1>
-      </div>
+    <div ref={ref} className="pt-[100px] pb-[40px] ">
+      <animated.div style={fadeUpAnimation}>
+        <div className="text-center lg:text-[20px] font-normal text-[#9A9AB5] font-['Sharp-Grotesk-Medium']">
+          <h1 className="animate-in slide-in-from-top  delay-650 duration-300">
+            In a world where every customer interaction can make or break your
+            business, one
+          </h1>
+          <h1>AI-powered tool is changing the game...</h1>
+        </div>
+      </animated.div>
+
       <div className="lg:mt-[20px] text-center lg:text-[50px] font-medium leading-[58px] font-['Sharp-Grotesk-Medium']">
         <h1>Meet EvolvePro.AI - The Revolutionary</h1>
         <h1>Chatbot Transforming How Businesses</h1>
         <h1>Connect, Communicate, and Convert Online</h1>
       </div>
       <div className="lg:flex justify-center lg:mt-[50px] lg:gap-[80px]">
-        <img src={imageOne} alt="imageOne" />
+        <img src={gifOne} alt="gifOne" />
         <div>
           <div className="lg:mt-[60px] lg:text-[30px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
             <h1>Maximise Your Lead</h1>
@@ -77,10 +99,10 @@ const Meet = () => {
             </h1>
           </div>
         </div>
-        <img src={imageTwo} alt="imageTwo" />
+        <img src={gifTwo} alt="imageTwo" />
       </div>
       <div className="lg:flex justify-center lg:mt-[50px] lg:gap-[80px]">
-        <img src={imageThree} alt="imageThree" />
+        <img src={gifThree} alt="imageThree" />
         <div>
           <div className="lg:mt-[60px] lg:text-[30px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
             <h1>Looking for the Secret</h1>
