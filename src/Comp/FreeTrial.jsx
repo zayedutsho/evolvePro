@@ -118,7 +118,7 @@ const FreeTrial = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-4 gap-[24px] lg:mt-[56px] px-[200px]">
+      <div className="lg:grid grid-cols-4 gap-[24px] lg:mt-[56px] lg:px-[200px]">
         {data.map((card) => (
           <div
             key={card.id}
@@ -136,7 +136,7 @@ const FreeTrial = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-center gap-[24px] lg:mt-[24px]">
+      <div className="hidden flex justify-center gap-[24px] lg:mt-[24px]">
         {/* Card 1 */}
         <div className="bg-[#2F2F38] rounded-[30px] pt-[48px] pb-[48px] px-[30px]">
           <img src={thirteen} alt="Logo 1" className="mx-auto" />
@@ -183,7 +183,7 @@ const FreeTrial = () => {
           </span>
         </h1>
       </div>
-      <div className="absolute top-[-580px] left-0">
+      <div className="hidden lg:block absolute top-[-580px] left-0">
         <img src={secondHand} alt="secondHand" />
       </div>
     </div>

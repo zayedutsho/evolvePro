@@ -124,7 +124,7 @@ const Meet = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[-270px] right-0">
+      <div className="hidden lg:block absolute top-[-270px] right-0">
         <img src={firstHand} alt="firstHand" style={{ width: "760px" }} />
       </div>
     </div>
