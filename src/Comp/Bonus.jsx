@@ -352,7 +352,7 @@ const Bonus = () => {
         alt="blue"
         style={{ position: "absolute", top: "3950px", left: "150px" }}
       />
-      <div className="absolute top-[-580px] right-0" ref={ref}>
+      <div className="hidden lg:block absolute top-[-580px] right-0 overflow-hidden z-10" ref={ref}>
         <animated.img
           src={thirdHand}
           alt="firstHand"
