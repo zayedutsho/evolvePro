@@ -7,6 +7,7 @@ import gifThree from "../assets/gif3.gif";
 import firstHand from "../assets/firstHand.svg";
 import { useSpring, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
+// import { useState } from "react";
 
 const Meet = () => {
   const [ref, inView] = useInView({
@@ -20,6 +21,22 @@ const Meet = () => {
     },
     easing: "ease-in-out",
   });
+
+  // const [hovered, setHovered] = useState(false);
+
+  const bounceAnimation = useSpring({
+    transform: inView ? "scale(1.2)" : "scale(1)",
+    config: { mass: 1, tension: 120, friction: 10, duration: 1000 },
+  });
+  // const shakeAnimation = useSpring({
+  //   opacity: inView ? 1 : 0,
+  //   transform: inView ? "translateY(0)" : "translateY(20px)",
+  //   config: {
+  //     duration: 800, // Adjust the duration as needed
+  //   },
+  //   easing: "ease-in-out",
+  // });
+
   return (
     <div ref={ref} className="pt-[150px] pb-[40px] relative">
       <animated.div style={fadeUpAnimation}>
@@ -124,8 +141,13 @@ const Meet = () => {
           </div>
         </div>
       </div>
-      <div className="hidden lg:block absolute top-[-270px] right-0">
-        <img src={firstHand} alt="firstHand" style={{ width: "760px" }} />
+
+      <div className="absolute top-[-270px] right-0" ref={ref}>
+        <animated.img
+          src={firstHand}
+          alt="firstHand"
+          style={{ ...bounceAnimation, width: "760px" }}
+        />
       </div>
     </div>
   );
