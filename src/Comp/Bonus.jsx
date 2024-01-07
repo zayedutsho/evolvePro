@@ -6,8 +6,19 @@ import three from "../assets/bonus/three.svg";
 import four from "../assets/bonus/four.svg";
 import blue from "../assets/bonus/blue.svg";
 import thirdHand from "../assets/thirdHand.svg";
+import { useSpring, animated } from "react-spring";
+import { useInView } from "react-intersection-observer";
 
 const Bonus = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
+  const bounceAnimation = useSpring({
+    transform: inView ? "scale(1.2)" : "scale(1)",
+    config: { mass: 1, tension: 120, friction: 14, duration: 1000 },
+  });
+
   return (
     <div className="mt-[330px] mb-[12px] relative">
       <div className="lg:flex justify-center lg:ml-[100px] lg:gap-[80px]">
@@ -341,8 +352,12 @@ const Bonus = () => {
         alt="blue"
         style={{ position: "absolute", top: "3950px", left: "150px" }}
       />
-      <div className="absolute top-[-580px] right-0">
-        <img src={thirdHand} alt="thirdHand" />
+      <div className="absolute top-[-580px] right-0" ref={ref}>
+        <animated.img
+          src={thirdHand}
+          alt="firstHand"
+          style={{ ...bounceAnimation, width: "760px" }}
+        />
       </div>
     </div>
   );

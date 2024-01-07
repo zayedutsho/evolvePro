@@ -15,8 +15,21 @@ import thirteen from "../assets/thirteen.svg";
 import fourteen from "../assets/fourteen.svg";
 import fifteen from "../assets/fifteen.svg";
 import secondHand from "../assets/secondHand.svg";
+import { useSpring, animated } from "react-spring";
+import { useInView } from "react-intersection-observer";
+
+// import { useInView } from "react-intersection-observer";
 
 const FreeTrial = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
+  const bounceAnimation = useSpring({
+    transform: inView ? "scale(1.2)" : "scale(1)",
+    config: { duration: 1000 },
+  });
+
   const data = [
     {
       id: 1,
@@ -183,8 +196,12 @@ const FreeTrial = () => {
           </span>
         </h1>
       </div>
-      <div className="hidden lg:block absolute top-[-580px] left-0">
-        <img src={secondHand} alt="secondHand" />
+      <div className="hidden lg:block absolute top-[-580px] left-0" ref={ref}>
+        <animated.img
+          src={secondHand}
+          alt="firstHand"
+          style={{ ...bounceAnimation, width: "760px" }}
+        />
       </div>
     </div>
   );
