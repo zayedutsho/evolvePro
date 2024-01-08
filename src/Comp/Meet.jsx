@@ -38,12 +38,16 @@ const Meet = () => {
   // });
 
   return (
-    <div ref={ref} className="pt-[380px] px-[16px] lg:px-[0px] lg:pt-[150px] lg:pb-[40px] relative">
+    <div
+      ref={ref}
+      className="pt-[380px] px-[16px] lg:px-[0px] lg:pt-[150px] lg:pb-[40px] relative"
+    >
       <animated.div style={fadeUpAnimation}>
         <div className="block lg:hidden text-center text-[16px] lg:text-[20px] font-normal text-[#9A9AB5] font-['Sharp-Grotesk-Medium']">
           <h1 className="animate-in slide-in-from-top  delay-650 duration-300">
             In a world where every customer interaction can make or break your
-            business, one AI-powered tool is changing the game...</h1>
+            business, one AI-powered tool is changing the game...
+          </h1>
         </div>
       </animated.div>
 
@@ -58,7 +62,10 @@ const Meet = () => {
       </animated.div>
 
       <div className="block lg:hidden mt-[24px] lg:mt-[20px] text-center text-[28px] lg:text-[50px] font-medium font-['Sharp-Grotesk-Medium']">
-        <h1>Meet EvolvePro.AI - The Revolutionary Chatbot Transforming How Businesses Connect, Communicate, and Convert Online</h1>
+        <h1>
+          Meet EvolvePro.AI - The Revolutionary Chatbot Transforming How
+          Businesses Connect, Communicate, and Convert Online
+        </h1>
       </div>
 
       <div className="hidden lg:block lg:mt-[20px] text-center lg:text-[50px] font-medium leading-[58px] font-['Sharp-Grotesk-Medium']">
@@ -79,8 +86,14 @@ const Meet = () => {
           </div>
 
           <div className="block lg:hidden text-center mt-[21px] lg:mt-[24px] text-[#9A9AB5] font-['Poppins'] text-[14px] lg:text-[16px]">
-            <h1>With EvolvePro.AI, say goodbye to missed opportunities. Our intelligent AI doesn't just wait for customers to reach out – it proactively engages them, understanding their needs and guiding them through your sales funnel. Imagine waking up to a list of warm leads every morning, all thanks to a chatbot that
-            never sleeps.</h1>
+            <h1>
+              With EvolvePro.AI, say goodbye to missed opportunities. Our
+              intelligent AI doesn't just wait for customers to reach out – it
+              proactively engages them, understanding their needs and guiding
+              them through your sales funnel. Imagine waking up to a list of
+              warm leads every morning, all thanks to a chatbot that never
+              sleeps.
+            </h1>
           </div>
           <div className="hidden lg:block lg:mt-[24px] text-[#9A9AB5] font-['Poppins'] lg:text-[16px]">
             <h1>With EvolvePro.AI, say goodbye to missed opportunities. Our</h1>
@@ -118,7 +131,12 @@ const Meet = () => {
           </div>
           <div className="block lg:hidden text-center mt-[21px] lg:mt-[24px] text-[#9A9AB5] font-['Poppins'] text-[14px] lg:text-[16px]">
             <h1>
-              EvolvePro.AI brings a personal touch to every conversation. It learns from each interaction, ensuring that your customers feel heard and understood. This isn't just a chatbot; it's a relationship builder, tailored to make every customer feel like your only customer.</h1>
+              EvolvePro.AI brings a personal touch to every conversation. It
+              learns from each interaction, ensuring that your customers feel
+              heard and understood. This isn't just a chatbot; it's a
+              relationship builder, tailored to make every customer feel like
+              your only customer.
+            </h1>
           </div>
           <div className="hidden lg:block lg:mt-[24px] text-[#9A9AB5] font-['Poppins'] lg:text-[16px]">
             <h1>
@@ -156,7 +174,11 @@ const Meet = () => {
           </div>
           <div className="block lg:hidden text-center mt-[21px] lg:mt-[24px] text-[#9A9AB5] font-['Poppins'] text-[14px] lg:text-[16px]">
             <h1>
-              Sales aren’t just about having the right product; it’s about timing and understanding. EvolvePro.AI is your 24/7 sales expert, identifying and acting on buying signals, providing the right information at the right time to seal the deal.</h1>
+              Sales aren’t just about having the right product; it’s about
+              timing and understanding. EvolvePro.AI is your 24/7 sales expert,
+              identifying and acting on buying signals, providing the right
+              information at the right time to seal the deal.
+            </h1>
           </div>
           <div className="hidden lg:block lg:mt-[24px] text-[#9A9AB5] font-['Poppins'] lg:text-[16px]">
             <h1>
@@ -178,11 +200,19 @@ const Meet = () => {
         </div>
       </div>
 
-      <div className="hidden lg:block absolute top-[-240px] right-0 overflow-hidden z-10" ref={ref}>
+      <div
+        className="hidden lg:block absolute top-[-280px] right-0  overflow-hidden z-10 "
+        ref={ref}
+      >
         <animated.img
           src={firstHand}
           alt="firstHand"
-          style={{ ...bounceAnimation, width: "740px" }}
+          style={{
+            ...bounceAnimation,
+            width: "740px",
+            marginTop: "60px",
+            paddingLeft: "90px",
+          }}
         />
       </div>
     </div>

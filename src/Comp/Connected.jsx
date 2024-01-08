@@ -19,7 +19,7 @@ const Connected = () => {
       <div className="lg:flex items-center justify-center lg:mt-[80px]">
         <img src={connectedImage} alt="connectedImage" />
       </div>
-      <div className="absolute top-[38%] left-[19%] font-['Poppins']">
+      <div className="absolute top-[38%] left-[19%] font-['Poppins'] overflow-hidden">
         <div>
           <h1 className="text-[#292930] text-[40px] font-medium">
             Why EvolvePro.AI?
