@@ -9,7 +9,6 @@ import Visitor from "./Comp/Visitor";
 import Know from "./Comp/know";
 import Oppurtunity from "./Comp/Oppurtunity";
 import Bonus from "./Comp/Bonus";
-import BackgroundImageComponent from "./Comp/BackgroundImageComponent ";
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
       <FreeTrial />
       <Bonus />
       <Faq />
-      <BackgroundImageComponent />
     </>
   );
 }

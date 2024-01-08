@@ -211,7 +211,7 @@ const Meet = () => {
             ...bounceAnimation,
             width: "740px",
             marginTop: "60px",
-            paddingLeft: "90px",
+            paddingLeft: "30px",
           }}
         />
       </div>

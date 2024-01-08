@@ -123,7 +123,7 @@ const FreeTrial = () => {
     <div className="bg-[#27272E] flex flex-col lg:items-center justify-center pt-[64px] lg:pt-[150px] pb-[80px] lg:pb-[350px] relative">
       <div className="text-white text-center">
         <h1 className="font-['Poppins'] text-[20px]">Join The Revolution</h1>
-        <h1 className="text-[28px] lg:text-[80px] font-['Sharp-Grotesk-Medium'] mt-[16px] lg:mt-[0px]">
+        <h1 className="text-[28px] lg:text-[80px] font-['Sharp-Grotesk-Medium'] mt-[16px] lg:mt-[0px] px-[30px] lg:px-[0px]">
           Start your <span className="text-[#3662FE]">FREE Trial.</span>
         </h1>
         <h1 className="text-[#999FAE] mt-[24px] lg:mt-[16px] lg:text-[18px] font-['Poppins']">
