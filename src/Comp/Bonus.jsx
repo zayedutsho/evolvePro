@@ -20,7 +20,7 @@ const Bonus = () => {
   });
 
   return (
-    <div className="mt-[92px] lg:mt-[330px] mb-[56px] lg:mb-[12px] relative">  
+    <div className="mt-[92px] lg:mt-[330px] mb-[56px] lg:mb-[12px] relative">
       <div className="flex flex-col-reverse lg:flex-row lg:flex justify-center lg:ml-[100px] lg:gap-[80px]">
         <div className="px-[16px] lg:px-[0px]">
           <div className="block lg:hidden mt-[42px] lg:mt-[60px] text-[28px] lg:text-[48px] font-medium font-['Sharp-Grotesk-Medium']">
@@ -32,7 +32,10 @@ const Bonus = () => {
             <h1>Blueprint</h1>
           </div>
           <div className="block lg:hidden mt-[16px] lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
-            <h1>The 5 Step Online Marketing Guide To Generating As Many Qualified Leads And Converting As Many Sales As Possible!</h1>
+            <h1>
+              The 5 Step Online Marketing Guide To Generating As Many Qualified
+              Leads And Converting As Many Sales As Possible!
+            </h1>
           </div>
           <div className="hidden lg:block lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
             <h1>The 5 Step Online Marketing Guide To Generating As Many</h1>
@@ -48,10 +51,15 @@ const Bonus = () => {
             <div className="block lg:hidden mt-[16px] text-[#999FAE] font-['Poppins']">
               <h1>
                 When you begin your FREE Trial of EvolvePro.AI, we're including
-                the exclusive "5 Step Marketing Blueprint" as a special bonus. This blueprint has been instrumental in guiding 1000s of businesses towards targeted, effective marketing strategies that attract
-                their dream customers.</h1>
+                the exclusive "5 Step Marketing Blueprint" as a special bonus.
+                This blueprint has been instrumental in guiding 1000s of
+                businesses towards targeted, effective marketing strategies that
+                attract their dream customers.
+              </h1>
               <h1 className="mt-[16px]">
-                Experience the transformative power of combining traditional marketing wisdom with cutting-edge AI technology.</h1>
+                Experience the transformative power of combining traditional
+                marketing wisdom with cutting-edge AI technology.
+              </h1>
               <h1 className="mt-[16px]">
                 Get This For FREE When You Start Your FREE Trial of EvolvePro.AI
                 Today!
@@ -107,15 +115,17 @@ const Bonus = () => {
             <div className="block lg:hidden mt-[16px] text-[#999FAE] font-['Poppins']">
               <h1>
                 As part of your FREE Trial of EvolvePro.AI, we're excited to
-                offer you the exclusive "Closer's Checklist." This comprehensive guide has
-                been a game-changer for sales professionals globally, providing a
-                step-by-step framework to close deals effectively.</h1>
+                offer you the exclusive "Closer's Checklist." This comprehensive
+                guide has been a game-changer for sales professionals globally,
+                providing a step-by-step framework to close deals effectively.
+              </h1>
               <h1 className="mt-[16px]">
                 Discover the art of persuasive selling, from initial contact to
-                final handshake. This checklist isn't just a guide; it's your roadmap
-                to sales mastery, and when you integrate it with the booked appointments 
-                that EvolvePro.AI delivers to you - your success in sales will
-                reach new heights.</h1>
+                final handshake. This checklist isn't just a guide; it's your
+                roadmap to sales mastery, and when you integrate it with the
+                booked appointments that EvolvePro.AI delivers to you - your
+                success in sales will reach new heights.
+              </h1>
               <h1 className="mt-[16px]">
                 Get This For FREE When You Start Your FREE Trial of EvolvePro.AI
                 Today!
@@ -182,17 +192,20 @@ const Bonus = () => {
             <div className="block lg:hidden mt-[16px] text-[#999FAE] font-['Poppins']">
               <h1>
                 When you embark on your journey with EvolvePro.AI, you're not
-                just getting a cutting-edge AI tool; you're securing a ticket to the
-                forefront of AI innovation.</h1>
+                just getting a cutting-edge AI tool; you're securing a ticket to
+                the forefront of AI innovation.
+              </h1>
               <h1 className="mt-[16px]">
-                As a VIP Early Access member, you'll be the first to explore and 
+                As a VIP Early Access member, you'll be the first to explore and
                 leverage EvolvePro.AI's newest features. This privilege puts
-                your business miles ahead, always in tune with the latest AI 
+                your business miles ahead, always in tune with the latest AI
                 advancements. Imagine integrating the future into your
-                strategies today - that's the power we're offering.</h1>
+                strategies today - that's the power we're offering.
+              </h1>
               <h1 className="mt-[16px]">
                 Embrace this opportunity to lead the pack. Get VIP Early Access
-                For FREE When You Start Your FREE Trial of EvolvePro.AI Now!</h1>
+                For FREE When You Start Your FREE Trial of EvolvePro.AI Now!
+              </h1>
             </div>
             <div className="hidden lg:block mt-[16px] text-[#999FAE] font-['Poppins']">
               <h1>
@@ -249,21 +262,25 @@ const Bonus = () => {
             <div className="block lg:hidden mt-[16px] text-[#999FAE] font-['Poppins']">
               <h1>
                 Dive into the world of AI with a tailored strategy that fits
-                your unique business needs. With our Custom 30 Minute AI Audit Session,
-                you're not just adapting AI technology; you're mastering it.</h1>
+                your unique business needs. With our Custom 30 Minute AI Audit
+                Session, you're not just adapting AI technology; you're
+                mastering it.
+              </h1>
               <h1 className="mt-[16px]">
                 This exclusive session is your gateway to understanding where AI
-                fits in your business landscape. Our experts will walk you through a 
-                comprehensive audit, pinpointing exactly how AI can elevate your 
-                operations. We don't just stop at EvolvePro.AI’s website chatbot
-                capabilities; we explore the full spectrum of AI possibilities
-                for your business.</h1>
+                fits in your business landscape. Our experts will walk you
+                through a comprehensive audit, pinpointing exactly how AI can
+                elevate your operations. We don't just stop at EvolvePro.AI’s
+                website chatbot capabilities; we explore the full spectrum of AI
+                possibilities for your business.
+              </h1>
               <h1 className="mt-[16px]">
                 Transform your approach to AI from mere implementation to
                 complete domination. This personalised session, usually valued
                 at $197, is yours for FREE when you start your FREE Trial of
-                EvolvePro.AI today. Seize this chance to craft an AI strategy that propels
-                your business to new heights!</h1>
+                EvolvePro.AI today. Seize this chance to craft an AI strategy
+                that propels your business to new heights!
+              </h1>
             </div>
             <div className="hidden lg:block mt-[16px] text-[#999FAE] font-['Poppins']">
               <h1>
@@ -336,25 +353,29 @@ const Bonus = () => {
               <h1>
                 Imagine having a roadmap to marketing success, tailored just for
                 your business. That's exactly what you get with our Free 60
-                Minute Marketing Strategy Session.</h1>
+                Minute Marketing Strategy Session.
+              </h1>
               <h1 className="mt-[16px]">
                 In this power-packed hour, you'll sit down with our top
-                marketing strategists. These are the minds behind some of the most
-                successful campaigns in the industry, and they're all yours for a full 60
-                minutes. This isn't just a generic consultation; it's a deep dive into
-                your unique business challenges and goals.</h1>
+                marketing strategists. These are the minds behind some of the
+                most successful campaigns in the industry, and they're all yours
+                for a full 60 minutes. This isn't just a generic consultation;
+                it's a deep dive into your unique business challenges and goals.
+              </h1>
               <h1 className="mt-[16px]">
                 We'll dissect your current marketing strategies, identify gaps,
                 and unlock opportunities you might have never considered. From
                 leveraging the latest digital trends to refining your target
-                audience approach, this session is a goldmine of insights and actionable advice.</h1>
+                audience approach, this session is a goldmine of insights and
+                actionable advice.
+              </h1>
               <h1 className="mt-[16px]">
                 This is more than just a strategy session; it's a
-                transformational experience for your business. Valued at $500, this session is
-                your key to unlocking marketing strategies that can skyrocket your
-                growth. And it's completely FREE when you start your FREE Trial of
-                EvolvePro.AI today. Don't miss this opportunity to reshape your marketing
-                destiny!
+                transformational experience for your business. Valued at $500,
+                this session is your key to unlocking marketing strategies that
+                can skyrocket your growth. And it's completely FREE when you
+                start your FREE Trial of EvolvePro.AI today. Don't miss this
+                opportunity to reshape your marketing destiny!
               </h1>
             </div>
             <div className="hidden lg:block mt-[16px] text-[#999FAE] font-['Poppins']">
@@ -463,11 +484,19 @@ const Bonus = () => {
         style={{ position: "absolute", top: "3950px", left: "150px" }}
         className="hidden lg:block"
       />
-      <div className="hidden lg:block absolute top-[-580px] right-0 overflow-hidden z-10" ref={ref}>
+      <div
+        className="hidden lg:block absolute top-[-580px] right-0 overflow-hidden z-10"
+        ref={ref}
+      >
         <animated.img
           src={thirdHand}
           alt="firstHand"
-          style={{ ...bounceAnimation, width: "760px" }}
+          style={{
+            ...bounceAnimation,
+            width: "760px",
+            marginLeft: "95px",
+            marginTop: "50px",
+          }}
         />
       </div>
     </div>
