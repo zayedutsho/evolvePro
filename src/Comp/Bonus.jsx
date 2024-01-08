@@ -4,6 +4,10 @@ import one from "../assets/bonus/one.svg";
 import two from "../assets/bonus/two.svg";
 import three from "../assets/bonus/three.svg";
 import four from "../assets/bonus/four.svg";
+import oneMobile from "../assets/bonus/oneMobile.svg";
+import twoMobile from "../assets/bonus/twoMobile.svg";
+import threeMobile from "../assets/bonus/threeMobile.svg";
+import fourMobile from "../assets/bonus/fourMobile.svg";
 import blue from "../assets/bonus/blue.svg";
 import thirdHand from "../assets/thirdHand.svg";
 import { useSpring, animated } from "react-spring";
@@ -84,10 +88,12 @@ const Bonus = () => {
             </div>
           </div>
         </div>
-        <img src={one} alt="imageOne" />
+        <img src={one} alt="imageOne" className="hidden lg:block"/>
+        <img src={oneMobile} alt="imageOne" className="block lg:hidden"/>
       </div>
       <div className="lg:flex justify-center mt-[40px] lg:mt-[50px] lg:gap-[80px]">
-        <img src={two} alt="imageTwo" />
+        <img src={two} alt="imageTwo" className="hidden lg:block"/>
+        <img src={twoMobile} alt="imageTwo" className="lg:hidden block"/>
         <div className="lg:mr-[100px] px-[16px] lg:px-[0px]">
           <div className="block lg:hidden mt-[42px] lg:mt-[60px] text-[28px] lg:text-[30px] font-medium font-['Sharp-Grotesk-Medium']">
             <h1>Bonus #2 - The Closer's Checklist</h1>
@@ -225,10 +231,12 @@ const Bonus = () => {
             </div>
           </div>
         </div>
-        <img src={three} alt="imageOne" />
+        <img src={three} alt="imageOne" className="hidden lg:block"/>
+        <img src={threeMobile} alt="imageOne" className="block lg:hidden"/>
       </div>
       <div className="lg:flex justify-center mt-[40px] lg:mt-[50px] lg:gap-[80px]">
-        <img src={four} alt="imageTwo" />
+        <img src={four} alt="imageTwo" className="hidden lg:block"/>
+        <img src={fourMobile} alt="imageTwo" className="block lg:hidden"/>
         <div className="lg:mr-[100px] px-[16px] lg:px-[0px]">
           <div className="block lg:hidden mt-[42px] lg:mt-[60px] text-[28px] lg:text-[48px] font-medium font-['Sharp-Grotesk-Medium']">
             <h1>Bonus #4 - Custom 15 Minute AI Audit Session</h1>
@@ -421,7 +429,8 @@ const Bonus = () => {
             </div>
           </div>
         </div>
-        <img src={three} alt="imageOne" />
+        <img src={four} alt="imageTwo" className="hidden lg:block"/>
+        <img src={fourMobile} alt="imageTwo" className="block lg:hidden"/>
       </div>
       <div>
         <h1 className="text-center lg:text-[32px] font-['Poppins'] font-bold text-[#fff] mt-[56px] lg:mt-[188px]">
