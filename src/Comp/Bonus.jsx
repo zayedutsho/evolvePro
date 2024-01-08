@@ -438,7 +438,7 @@ const Bonus = () => {
             Start Your Free Trial Today 》
           </span>
         </h1>
-        <h1 className="px-[16px] lg:px-[0px] mt-[42px] lg:mt-[48px] text-center text-[#6D6D6D] text-[18px] font-['Poppins']">
+        <h1 className="px-[16px] lg:px-[0px] mt-[42px] lg:mt-[48px] text-center text-[#6D6D6D] text-[14px] lg:text-[18px] font-['Poppins']">
           Get Started In Less Than 60 Seconds • Cancel Anytime
         </h1>
       </div>
