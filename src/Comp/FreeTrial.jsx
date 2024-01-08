@@ -120,18 +120,76 @@ const FreeTrial = () => {
   ];
 
   return (
-    <div className="bg-[#27272E]  flex flex-col items-center justify-center pt-[150px] pb-[350px] relative">
+    <div className="bg-[#27272E] flex flex-col lg:items-center justify-center pt-[64px] lg:pt-[150px] pb-[80px] lg:pb-[350px] relative">
       <div className="text-white text-center">
         <h1 className="font-['Poppins'] text-[20px]">Join The Revolution</h1>
-        <h1 className="text-[80px] font-['Sharp-Grotesk-Medium']">
+        <h1 className="text-[28px] lg:text-[80px] font-['Sharp-Grotesk-Medium'] mt-[16px] lg:mt-[0px]">
           Start your <span className="text-[#3662FE]">FREE Trial.</span>
         </h1>
-        <h1 className="text-[#999FAE] lg:mt-[16px] text-[18px] font-['Poppins']">
+        <h1 className="text-[#999FAE] mt-[24px] lg:mt-[16px] lg:text-[18px] font-['Poppins']">
           Get Started In Less Than 60 Seconds • Cancel Anytime
         </h1>
       </div>
 
-      <div className="lg:grid grid-cols-4 gap-[24px] lg:mt-[56px] lg:px-[200px]">
+      <div className="block lg:hidden flex overflow-y-auto no-scrollbar lg:grid grid-cols-4 gap-[8px] lg:gap-[24px] mt-[40px] lg:mt-[56px] px-[16px] lg:px-[200px]">
+        {data.map((card) => (
+          <div
+            key={card.id}
+            className="bg-[#2F2F38] pt-[48px] pb-[48px] px-[30px] rounded-[30px] min-w-[342px]"
+          >
+            <img src={card.logo} alt={`Logo ${card.id}`} className="mx-auto" />
+            <h2 className="text-[20px] text-white font-normal font-['Poppins'] text-center mt-[25px]">
+              {card.heading}
+            </h2>
+            <div className="text-[16px] text-[#999FAE] text-center font-['poppins'] mt-[16px]">
+              <h1>{card.description}</h1>
+              <h1>{card.desc2}</h1>
+              <h1>{card.desc3}</h1>
+            </div>
+          </div>
+        ))}
+        <div className="block lg:hidden flex justify-center gap-[8px] lg:mt-[24px]">
+         {/* Card 1 */}
+          <div className="bg-[#2F2F38] rounded-[30px] pt-[48px] pb-[48px] px-[30px] min-w-[342px]">
+            <img src={thirteen} alt="Logo 1" className="mx-auto" />
+            <h2 className="text-[20px] text-white font-normal font-['Poppins'] text-center mt-[25px]">
+              User-Friendly Interface
+            </h2>
+            <div className="text-[16px] text-[#999FAE] text-center font-['poppins'] mt-[16px]">
+              <h1>Easy-to-use interface for efficient</h1>
+              <h1>management and control.</h1>
+            </div>
+          </div>
+
+         {/* Card 2 */}
+          <div className="bg-[#2F2F38] rounded-[30px] pt-[48px] pb-[48px] px-[30px] min-w-[342px]">
+            <img src={fourteen} alt="Logo 2" className="mx-auto" />
+            <h2 className="text-[20px] text-white font-normal font-['Poppins'] text-center lg:mt-[25px]">
+              Expert Sales Training
+            </h2>
+            <div className="text-[16px] text-[#999FAE] text-center font-['poppins'] lg:mt-[16px]">
+              <p>Expertly trained in cutting-edge</p>
+              <p>sales strategies from the greatest</p>
+              <p>sales books ever for superior</p>
+              <p>performance.</p>
+            </div>
+          </div>
+
+         {/* Card 3 */}
+          <div className="bg-[#2F2F38] rounded-[30px] pt-[48px] pb-[48px] px-[30px] min-w-[342px]">
+            <img src={fifteen} alt="Logo 3" className="mx-auto" />
+            <h2 className="text-[20px] text-white font-normal font-['Poppins'] text-center lg:mt-[25px]">
+              CRM
+            </h2>
+            <div className="text-[16px] text-[#999FAE] text-center font-['poppins'] lg:mt-[16px]">
+              <h1>Integrates with CRM for streamlined</h1>
+              <h1>customer relationship </h1>
+              <h1>management</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="hidden lg:block lg:grid grid-cols-4 gap-[24px] mt-[40px] lg:mt-[56px] lg:px-[200px]">
         {data.map((card) => (
           <div
             key={card.id}
@@ -149,7 +207,7 @@ const FreeTrial = () => {
           </div>
         ))}
       </div>
-      <div className="hidden flex justify-center gap-[24px] lg:mt-[24px]">
+      <div className="hidden lg:block lg:flex justify-center gap-[24px] lg:mt-[24px]">
         {/* Card 1 */}
         <div className="bg-[#2F2F38] rounded-[30px] pt-[48px] pb-[48px] px-[30px]">
           <img src={thirteen} alt="Logo 1" className="mx-auto" />
@@ -190,8 +248,8 @@ const FreeTrial = () => {
         </div>
       </div>
       <div>
-        <h1 className="text-center lg:text-[32px] font-['Poppins'] font-bold text-[#fff]  mt-[100px]">
-          <span className="py-[29px] px-[44px] border-b-[3px] border-[#0084CB] shadow-2xl bg-[linear-gradient(180deg,_#36DAFE_0%,_#129CE9_100%)] rounded-[20px]">
+        <h1 className="text-center lg:text-[32px] font-['Poppins'] font-bold text-[#fff] mt-[100px]">
+          <span className="py-[20px] lg:py-[29px] px-[32px] lg:px-[44px] border-b-[3px] border-[#0084CB] shadow-2xl bg-[linear-gradient(180deg,_#36DAFE_0%,_#129CE9_100%)] rounded-[20px]">
             Start Your Free Trial Today 》
           </span>
         </h1>
