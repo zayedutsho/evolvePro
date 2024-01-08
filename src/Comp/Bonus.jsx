@@ -20,26 +20,44 @@ const Bonus = () => {
   });
 
   return (
-    <div className="mt-[330px] mb-[12px] relative">
-      <div className="lg:flex justify-center lg:ml-[100px] lg:gap-[80px]">
-        <div>
-          <div className="lg:mt-[60px] lg:text-[48px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
+    <div className="mt-[92px] lg:mt-[330px] mb-[56px] lg:mb-[12px] relative">  
+      <div className="flex flex-col-reverse lg:flex-row lg:flex justify-center lg:ml-[100px] lg:gap-[80px]">
+        <div className="px-[16px] lg:px-[0px]">
+          <div className="block lg:hidden mt-[42px] lg:mt-[60px] text-[28px] lg:text-[48px] font-medium font-['Sharp-Grotesk-Medium']">
+            <h1>Bonus #1 - The 5 Step Marketing Blueprint</h1>
+          </div>
+          <div className="hidden lg:block lg:mt-[60px] lg:text-[48px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
             <h1>Bonus #1 - The 5</h1>
             <h1>Step Marketing</h1>
             <h1>Blueprint</h1>
           </div>
-          <div className="lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
+          <div className="block lg:hidden mt-[16px] lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
+            <h1>The 5 Step Online Marketing Guide To Generating As Many Qualified Leads And Converting As Many Sales As Possible!</h1>
+          </div>
+          <div className="hidden lg:block lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
             <h1>The 5 Step Online Marketing Guide To Generating As Many</h1>
             <h1>Qualified Leads And Converting As Many Sales As Possible!</h1>
           </div>
-          <div className="lg:mt-[64px]">
+          <div className="mt-[32px] lg:mt-[64px]">
             <h1 className="font-['Sharp-Grotesk-Medium'] text-[16px]">
               Total Value
             </h1>
             <h1 className="font-['Sharp-Grotesk-Medium'] text-[48px]">
               $19.97
             </h1>
-            <div className="mt-[16px] text-[#999FAE] font-['Poppins']">
+            <div className="block lg:hidden mt-[16px] text-[#999FAE] font-['Poppins']">
+              <h1>
+                When you begin your FREE Trial of EvolvePro.AI, we're including
+                the exclusive "5 Step Marketing Blueprint" as a special bonus. This blueprint has been instrumental in guiding 1000s of businesses towards targeted, effective marketing strategies that attract
+                their dream customers.</h1>
+              <h1 className="mt-[16px]">
+                Experience the transformative power of combining traditional marketing wisdom with cutting-edge AI technology.</h1>
+              <h1 className="mt-[16px]">
+                Get This For FREE When You Start Your FREE Trial of EvolvePro.AI
+                Today!
+              </h1>
+            </div>
+            <div className="hidden lg:block mt-[16px] text-[#999FAE] font-['Poppins']">
               <h1>
                 When you begin your FREE Trial of EvolvePro.AI, we're including
                 the
@@ -68,22 +86,42 @@ const Bonus = () => {
         </div>
         <img src={one} alt="imageOne" />
       </div>
-      <div className="lg:flex justify-center lg:mt-[50px] lg:gap-[80px]">
+      <div className="lg:flex justify-center mt-[40px] lg:mt-[50px] lg:gap-[80px]">
         <img src={two} alt="imageTwo" />
-        <div className="lg:mr-[100px]">
-          <div className="lg:mt-[60px] lg:text-[30px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
+        <div className="lg:mr-[100px] px-[16px] lg:px-[0px]">
+          <div className="block lg:hidden mt-[42px] lg:mt-[60px] text-[28px] lg:text-[30px] font-medium font-['Sharp-Grotesk-Medium']">
+            <h1>Bonus #2 - The Closer's Checklist</h1>
+          </div>
+          <div className="hidden lg:block lg:mt-[60px] lg:text-[48px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
             <h1>Bonus #2 - The</h1>
             <h1>Closer's Checklist</h1>
           </div>
-          <div className="lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
+          <div className="mt-[16px] lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
             <h1>Unlock the Secrets to Closing Every Sale with Confidence!</h1>
           </div>
-          <div className="lg:mt-[64px]">
+          <div className="mt-[32px] lg:mt-[64px]">
             <h1 className="font-['Sharp-Grotesk-Medium'] text-[16px]">
               Total Value
             </h1>
             <h1 className="font-['Sharp-Grotesk-Medium'] text-[48px]">$147</h1>
-            <div className="mt-[16px] text-[#999FAE] font-['Poppins']">
+            <div className="block lg:hidden mt-[16px] text-[#999FAE] font-['Poppins']">
+              <h1>
+                As part of your FREE Trial of EvolvePro.AI, we're excited to
+                offer you the exclusive "Closer's Checklist." This comprehensive guide has
+                been a game-changer for sales professionals globally, providing a
+                step-by-step framework to close deals effectively.</h1>
+              <h1 className="mt-[16px]">
+                Discover the art of persuasive selling, from initial contact to
+                final handshake. This checklist isn't just a guide; it's your roadmap
+                to sales mastery, and when you integrate it with the booked appointments 
+                that EvolvePro.AI delivers to you - your success in sales will
+                reach new heights.</h1>
+              <h1 className="mt-[16px]">
+                Get This For FREE When You Start Your FREE Trial of EvolvePro.AI
+                Today!
+              </h1>
+            </div>
+            <div className="hidden lg:block mt-[16px] text-[#999FAE] font-['Poppins']">
               <h1>
                 As part of your FREE Trial of EvolvePro.AI, we're excited to
                 offer you the
@@ -121,24 +159,42 @@ const Bonus = () => {
           </div>
         </div>
       </div>
-      <div className="lg:flex justify-center lg:ml-[100px] lg:mt-[50px] lg:gap-[80px]">
-        <div>
-          <div className="lg:mt-[60px] lg:text-[48px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
+      <div className="flex flex-col-reverse lg:flex-row lg:flex justify-center lg:ml-[100px] mt-[40px] lg:mt-[50px] lg:gap-[80px]">
+        <div className="px-[16px] lg:px-[0px]">
+          <div className="block lg:hidden mt-[42px] lg:mt-[60px] text-[28px] lg:text-[48px] font-medium font-['Sharp-Grotesk-Medium']">
+            <h1>Bonus #3 - First in Line: VIP Early Access</h1>
+          </div>
+          <div className="hidden lg:block lg:mt-[60px] lg:text-[48px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
             <h1>Bonus #3 - First in</h1>
             <h1>Line: VIP Early</h1>
             <h1>Access</h1>
           </div>
-          <div className="lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
+          <div className="mt-[16px] lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
             <h1>Be the Pioneer: Experience Tomorrow's AI Innovations Today!</h1>
           </div>
-          <div className="lg:mt-[64px]">
+          <div className="mt-[32px] lg:mt-[64px]">
             <h1 className="font-['Sharp-Grotesk-Medium'] text-[16px]">
               Total Value
             </h1>
-            <h1 className="font-['Sharp-Grotesk-Medium'] text-[48px]">
+            <h1 className="font-['Sharp-Grotesk-Medium'] text-[42px] lg:text-[48px]">
               PRICELESS
             </h1>
-            <div className="mt-[16px] text-[#999FAE] font-['Poppins']">
+            <div className="block lg:hidden mt-[16px] text-[#999FAE] font-['Poppins']">
+              <h1>
+                When you embark on your journey with EvolvePro.AI, you're not
+                just getting a cutting-edge AI tool; you're securing a ticket to the
+                forefront of AI innovation.</h1>
+              <h1 className="mt-[16px]">
+                As a VIP Early Access member, you'll be the first to explore and 
+                leverage EvolvePro.AI's newest features. This privilege puts
+                your business miles ahead, always in tune with the latest AI 
+                advancements. Imagine integrating the future into your
+                strategies today - that's the power we're offering.</h1>
+              <h1 className="mt-[16px]">
+                Embrace this opportunity to lead the pack. Get VIP Early Access
+                For FREE When You Start Your FREE Trial of EvolvePro.AI Now!</h1>
+            </div>
+            <div className="hidden lg:block mt-[16px] text-[#999FAE] font-['Poppins']">
               <h1>
                 When you embark on your journey with EvolvePro.AI, you're not
                 just
@@ -171,23 +227,45 @@ const Bonus = () => {
         </div>
         <img src={three} alt="imageOne" />
       </div>
-      <div className="lg:flex justify-center lg:mt-[50px] lg:gap-[80px]">
+      <div className="lg:flex justify-center mt-[40px] lg:mt-[50px] lg:gap-[80px]">
         <img src={four} alt="imageTwo" />
-        <div className="lg:mr-[100px]">
-          <div className="lg:mt-[60px] lg:text-[30px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
+        <div className="lg:mr-[100px] px-[16px] lg:px-[0px]">
+          <div className="block lg:hidden mt-[42px] lg:mt-[60px] text-[28px] lg:text-[48px] font-medium font-['Sharp-Grotesk-Medium']">
+            <h1>Bonus #4 - Custom 15 Minute AI Audit Session</h1>
+          </div>
+          <div className="hidden lg:block lg:mt-[60px] lg:text-[48px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
             <h1>Bonus #4 -</h1>
             <h1>Custom 15 Minute</h1>
             <h1>AI Audit Session</h1>
           </div>
-          <div className="lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
+          <div className="mt-[16px] lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
             <h1>Unlock Your AI Potential: Customised Strategy for Success!</h1>
           </div>
-          <div className="lg:mt-[64px]">
+          <div className="mt-[32px] lg:mt-[64px]">
             <h1 className="font-['Sharp-Grotesk-Medium'] text-[16px]">
               Personalized Consultation Value
             </h1>
             <h1 className="font-['Sharp-Grotesk-Medium'] text-[48px]">$197</h1>
-            <div className="mt-[16px] text-[#999FAE] font-['Poppins']">
+            <div className="block lg:hidden mt-[16px] text-[#999FAE] font-['Poppins']">
+              <h1>
+                Dive into the world of AI with a tailored strategy that fits
+                your unique business needs. With our Custom 30 Minute AI Audit Session,
+                you're not just adapting AI technology; you're mastering it.</h1>
+              <h1 className="mt-[16px]">
+                This exclusive session is your gateway to understanding where AI
+                fits in your business landscape. Our experts will walk you through a 
+                comprehensive audit, pinpointing exactly how AI can elevate your 
+                operations. We don't just stop at EvolvePro.AI’s website chatbot
+                capabilities; we explore the full spectrum of AI possibilities
+                for your business.</h1>
+              <h1 className="mt-[16px]">
+                Transform your approach to AI from mere implementation to
+                complete domination. This personalised session, usually valued
+                at $197, is yours for FREE when you start your FREE Trial of
+                EvolvePro.AI today. Seize this chance to craft an AI strategy that propels
+                your business to new heights!</h1>
+            </div>
+            <div className="hidden lg:block mt-[16px] text-[#999FAE] font-['Poppins']">
               <h1>
                 Dive into the world of AI with a tailored strategy that fits
                 your unique
@@ -236,22 +314,50 @@ const Bonus = () => {
           </div>
         </div>
       </div>
-      <div className="lg:flex justify-center lg:ml-[100px] lg:mt-[50px] lg:gap-[80px]">
-        <div>
-          <div className="lg:mt-[60px] lg:text-[48px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
+      <div className="flex flex-col-reverse lg:flex-row lg:flex justify-center lg:ml-[100px] mt-[40px] lg:mt-[50px] lg:gap-[80px]">
+        <div className="px-[16px] lg:px-[0px]">
+          <div className="block lg:hidden mt-[42px] lg:mt-[60px] text-[28px] lg:text-[48px] font-medium font-['Sharp-Grotesk-Medium']">
+            <h1>Bonus #5 - Free 60 Minute Marketing Strategy Session</h1>
+          </div>
+          <div className="hidden lg:block mt-[42px] lg:mt-[60px] lg:text-[48px] font-medium leading-[45px] font-['Sharp-Grotesk-Medium']">
             <h1>Bonus #5 - Free 60</h1>
             <h1>Minute Marketing</h1>
             <h1>Strategy Session</h1>
           </div>
-          <div className="lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
+          <div className="mt-[16px] lg:mt-[24px] text-[#27272E] font-['Poppins'] lg:text-[18px]">
             <h1>Evolve Your Marketing: Exclusive One-on-One Expert Session!</h1>
           </div>
-          <div className="lg:mt-[64px]">
+          <div className="mt-[32px] lg:mt-[64px]">
             <h1 className="font-['Sharp-Grotesk-Medium'] text-[16px]">
               Expert Consultation Value
             </h1>
             <h1 className="font-['Sharp-Grotesk-Medium'] text-[48px]">$500</h1>
-            <div className="mt-[16px] text-[#999FAE] font-['Poppins']">
+            <div className="block lg:hidden mt-[16px] text-[#999FAE] font-['Poppins']">
+              <h1>
+                Imagine having a roadmap to marketing success, tailored just for
+                your business. That's exactly what you get with our Free 60
+                Minute Marketing Strategy Session.</h1>
+              <h1 className="mt-[16px]">
+                In this power-packed hour, you'll sit down with our top
+                marketing strategists. These are the minds behind some of the most
+                successful campaigns in the industry, and they're all yours for a full 60
+                minutes. This isn't just a generic consultation; it's a deep dive into
+                your unique business challenges and goals.</h1>
+              <h1 className="mt-[16px]">
+                We'll dissect your current marketing strategies, identify gaps,
+                and unlock opportunities you might have never considered. From
+                leveraging the latest digital trends to refining your target
+                audience approach, this session is a goldmine of insights and actionable advice.</h1>
+              <h1 className="mt-[16px]">
+                This is more than just a strategy session; it's a
+                transformational experience for your business. Valued at $500, this session is
+                your key to unlocking marketing strategies that can skyrocket your
+                growth. And it's completely FREE when you start your FREE Trial of
+                EvolvePro.AI today. Don't miss this opportunity to reshape your marketing
+                destiny!
+              </h1>
+            </div>
+            <div className="hidden lg:block mt-[16px] text-[#999FAE] font-['Poppins']">
               <h1>
                 Imagine having a roadmap to marketing success, tailored just for
               </h1>
@@ -318,12 +424,12 @@ const Bonus = () => {
         <img src={three} alt="imageOne" />
       </div>
       <div>
-        <h1 className="text-center lg:text-[32px] font-['Poppins'] font-bold text-[#fff] mt-[188px]">
-          <span className="py-[29px] px-[44px] border-b-[3px] border-[#0084CB] shadow-2xl bg-[linear-gradient(180deg,_#36DAFE_0%,_#129CE9_100%)] rounded-[20px]">
+        <h1 className="text-center lg:text-[32px] font-['Poppins'] font-bold text-[#fff] mt-[56px] lg:mt-[188px]">
+          <span className="py-[20px] lg:py-[29px] px-[32px] lg:px-[44px] border-b-[3px] border-[#0084CB] shadow-2xl bg-[linear-gradient(180deg,_#36DAFE_0%,_#129CE9_100%)] rounded-[20px]">
             Start Your Free Trial Today 》
           </span>
         </h1>
-        <h1 className="lg:mt-[48px] text-center text-[#6D6D6D] text-[18px] font-['Poppins']">
+        <h1 className="px-[16px] lg:px-[0px] mt-[42px] lg:mt-[48px] text-center text-[#6D6D6D] text-[18px] font-['Poppins']">
           Get Started In Less Than 60 Seconds • Cancel Anytime
         </h1>
       </div>
@@ -331,26 +437,31 @@ const Bonus = () => {
         src={blue}
         alt="blue"
         style={{ position: "absolute", top: "310px", left: "150px" }}
+        className="hidden lg:block"
       />
       <img
         src={blue}
         alt="blue"
         style={{ position: "absolute", top: "1190px", right: "200px" }}
+        className="hidden lg:block"
       />
       <img
         src={blue}
         alt="blue"
         style={{ position: "absolute", top: "2110px", left: "150px" }}
+        className="hidden lg:block"
       />
       <img
         src={blue}
         alt="blue"
         style={{ position: "absolute", top: "3030px", right: "200px" }}
+        className="hidden lg:block"
       />
       <img
         src={blue}
         alt="blue"
         style={{ position: "absolute", top: "3950px", left: "150px" }}
+        className="hidden lg:block"
       />
       <div className="hidden lg:block absolute top-[-580px] right-0 overflow-hidden z-10" ref={ref}>
         <animated.img
