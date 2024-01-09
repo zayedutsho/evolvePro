@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 const know = () => {
   return (
-    <div className="lg:flex flex-col lg:pt-[160px] lg:pl-[240px] bg-[url('./assets/bgk.svg')] lg:bg-[url('./assets/knowledgeImage.svg')] min-h-[550px] lg:min-h-[1970px] bg-cover lg:bg-cover">
+    <div className="lg:flex flex-col mt-[80px] lg:mt-[0px] lg:pt-[160px] lg:pl-[240px] bg-[url('./assets/bgk.svg')] lg:bg-[url('./assets/knowledgeImage.svg')] min-h-[550px] lg:min-h-[1970px] bg-cover lg:bg-cover">
       <div className="text-[#222222] text-[28px] lg:text-[71px] lg:leading-[71px] font-semibold font-['Sharp-Grotesk-Medium']">
         <h1 className="text-center lg:text-start">EvolvePro.AI</h1>
       </div>
