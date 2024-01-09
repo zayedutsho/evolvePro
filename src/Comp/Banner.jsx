@@ -16,7 +16,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="bg-[linear-gradient(180deg,_#dedede00_0%,_#174aff4d_100%)] ">
+    <div className="bg-[linear-gradient(180deg,_#dedede00_0%,_#174aff4d_100%)]">
       <div className="pt-[64px] lg:pt-[150px] px-[26px] lg:px-[250px] flex items-center justify-center relative">
         <video
           src={video}
